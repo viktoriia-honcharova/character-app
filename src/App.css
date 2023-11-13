@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  margin: 0 auto;
+  display: flex;
+  width: 1240px;
+  flex-wrap: wrap;
+}
+
+.character-card {
+  height: 220px;
+  width: 600px;
+  background-color: rgb(32, 35, 41);
+  margin: 10px;
+  border-radius: 15px;
+  display: flex;
+}
+
+.character-content {
+  padding: 15px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.character-img {
+  height: 100%;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+}
+
+.character-name {
+  font-size: 1.5rem;
+}
+
+.status {
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.character-option-desc {
+  color: rgb(158, 158, 158);
+}
